@@ -59,3 +59,8 @@
   font-size: calc(4px + 2vmin);
   color: rgb(16, 13, 155);
 }
+
+.img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
