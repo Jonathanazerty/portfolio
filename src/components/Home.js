@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <body className="body">
             <div>
-                <img className="gif" src={logo} alt="loading..." />
+            <a href="/About" title="AboutMe"><img className="gif" src={logo} alt="loading..." /></a>
             </div>
       </body>
     )

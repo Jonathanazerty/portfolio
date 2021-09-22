@@ -11,9 +11,9 @@ const About = () => {
                 <br></br>
             <p>A motivated web developer who is passionate about helping people.<br></br>
                 Will strive to create a beautiful user-friendly website for you, into detail with every single line of code.<br></br>
-                Designs experiences that will make people's life easier !
+                Designs experiences that will make people's life easier !<br></br><br></br>
+                Help me help you !
             </p>
-                <br></br>
                 <br></br>
             <p>
                 FRONT-END = HTML CSS Javascript React Typescript Bootstrap<br></br>
