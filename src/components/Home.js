@@ -10,7 +10,7 @@ const Home = () => {
             <div>
             <a href="/About" title="AboutMe"><img className="gif" src={logo} alt="loading..." /></a>
             </div>
-            <About/>
+            <About/><br></br><br></br>
             <Projects/>
             <Contact/>
       </body>

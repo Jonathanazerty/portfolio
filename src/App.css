@@ -2,11 +2,12 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  color: rgb(60, 47, 168);
 }
 
 .App {
   background-color: white;
-  color: black;
+  color: rgb(60, 47, 168);
 }
 
 .App-header {
@@ -60,7 +61,7 @@
   color: rgb(16, 13, 155);
 }
 
-.img {
-  margin-top: 20px;
-  margin-bottom: 20px;
+.pokedex, .weather, .cuisine:hover {
+  transform: scale(1.2);
+  box-shadow: 10px 10px 10px rgb(194, 194, 255);
 }
