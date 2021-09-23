@@ -1,5 +1,6 @@
 import React from 'react';
 import { SocialIcon } from 'react-social-icons';
+import "./contact.css";
 // import { MDBIcon, MDBContainer, MDBBtn } from 'mdbreact';
 
 const Contact = () => {

@@ -16,9 +16,6 @@
   text-align: center;
   padding-top:10px;
   padding-bottom:10px;
-  background-color: rgba(207, 206, 253, 0.205);
-  font-size: calc(4px + 2vmin);
-  color: rgb(60, 47, 168);
 }
 
 .body {
@@ -28,7 +25,7 @@
 }
 
 .gif {
-  margin-top: 70px;
+  margin-top: 150px;
   margin-bottom: 300px;
   width: 27%;
   height: 27%;

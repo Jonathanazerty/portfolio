@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer">
             <section class="d-flex justify-content-center justify-content-lg-between p-4 m-4 border-bottom">
                 <div class="me-5 d-none d-lg-block">
-                    <span>Feel free to connect 🤝🏼 with me on</span>
+                    <span>Eager to meet new people 🤝🏼 !</span>
                 </div>
                 <div>
                   <SocialIcon url="https://linkedin.com/in/jonathan-kalonji-0819a492/" bgColor="#0054ff" />
@@ -30,7 +30,7 @@ const Footer = () => {
                 </p>
               </MDBCol>
               <MDBCol md="6">
-                <h5 className="title">Based in</h5>
+                <h5 className="title">Based</h5>
                 <ul>
                   <FontAwesomeIcon icon={faHome} />
                         Berchem - Belgium<br></br>
