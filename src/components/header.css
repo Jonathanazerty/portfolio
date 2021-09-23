@@ -1,5 +1,5 @@
 .header {
-    background-color: rgba(207, 206, 253, 0.205);
+    background-color: rgba(207, 206, 253, 0.274);
     color: rgb(60, 47, 168);
     width: 100%;
     height: 70px;
@@ -87,7 +87,7 @@
   }
   
   .header.active {
-    background-color: transparent;
+    background-color: rgba(207, 206, 253, 0.1);
     color: transparent;
   }
   
@@ -111,8 +111,5 @@
       font-size: 18px;
       font-weight: 700;
       margin-right: 210px;
-      background-color: rgba(207, 206, 253, 0.384);
-      box-shadow:  5px 5px 5px rgb(223, 222, 250);
-      border-radius: 40px;
   }
   

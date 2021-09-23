@@ -5,12 +5,14 @@ import { Contact } from './Contact';
 import { Projects } from './Projects';
 
 const Home = () => {
+    
     return (
+        
         <body className="body">
             <div>
             <a href="/About" title="AboutMe"><img className="gif" src={logo} alt="loading..." /></a>
             </div>
-            <About/><br></br><br></br>
+            <About/>
             <Projects/>
             <Contact/>
       </body>
