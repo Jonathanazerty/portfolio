@@ -7,15 +7,36 @@ import cuisine from '../images/CultureCuisine.png';
 const Projects = () => {
     return (
         <div className="projects">
-            <h2>
+            <h2 class="rounded float-center mb-5 mt-5">
                 My Projects
             </h2>
-            
-                <a href="https://pokedex-dennis-jonathan.netlify.app/"><img className="image1" src={pokedex} alt="loading..." class="rounded float-center mb-5 mt-5" style={{width: "700px", height: "100%"  }}/></a><br></br>
-           
-                <a href="https://jonathanazerty.github.io/weather-app/"><img className="image2" src={weather} alt="loading..." class="rounded float-center mb-5 mt-5" style={{width: "700px", height: "100%"  }}/></a><br></br>
-            
-                <a href="https://syntaxv8.github.io/the-startup/"><img className="image3" src={cuisine} alt="loading..." class="rounded float-center mt-5 mb-5" style={{width: "700px", height: "100%"  }}/></a>
+            <div className="images">
+                <img className="image" src={pokedex} alt="loading..." class="rounded float-center mb-5 mt-5" style={{width: "590px", height: "100%"  }}/><br></br>
+                <div className="image__overlay image__overlay--blur">
+                    <div className="image__title"> Pokedex 🎮 </div>
+                    <a href="https://pokedex-dennis-jonathan.netlify.app/"><p className ="image__description">
+                        Click here to view live !
+                    </p></a>
+                </div>
+            </div>
+            <div className="images">
+                <img className="image" src={weather} alt="loading..." class="rounded float-center mb-5 mt-5" style={{width: "590px", height: "100%"  }}/><br></br>
+                <div className="image__overlay image__overlay--blur">
+                    <div className="image__title"> Weather App ☀️❄️⛈️🌡️</div>
+                    <a href="https://jonathanazerty.github.io/weather-app/"><p className ="image__description">
+                        Click here to view live !
+                    </p></a>
+                </div>
+            </div>
+            <div className="images">
+                <img className="image" src={cuisine} alt="loading..." class="rounded float-center mt-5 mb-5" style={{width: "590px", height: "100%"  }}/>
+                <div className="image__overlay image__overlay--blur">
+                    <div className="image__title"> Culture Cuisine 🌮🧆🍣🍝</div>
+                    <a href="https://syntaxv8.github.io/the-startup/"><p className ="image__description">
+                        Click here to view live !
+                    </p></a>
+                </div>
+            </div>
         </div>
     )
 }
