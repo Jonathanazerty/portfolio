@@ -12,7 +12,7 @@ const Footer = () => {
                 <div class="me-5 d-none d-lg-block">
                     <span>Eager to meet new people 🤝🏼 !</span>
                 </div>
-                <div>
+                <div className="icons">
                   <SocialIcon url="https://linkedin.com/in/jonathan-kalonji-0819a492/" bgColor="#0054ff" />
                   <SocialIcon url="https://github.com/Jonathanazerty/" bgColor="#0054ff" />
                   <SocialIcon url="mailto:j.kalonji@hotmail.com" bgColor="#0054ff"/>
@@ -33,7 +33,7 @@ const Footer = () => {
                 <h5 className="title">Based</h5>
                 <ul>
                   <FontAwesomeIcon icon={faHome} />
-                        Berchem - Belgium<br></br>
+                        Antwerp - Belgium<br></br>
                   <FontAwesomeIcon icon={faPhone} url="tel:+32 473981602"/>
                 </ul>
               </MDBCol>

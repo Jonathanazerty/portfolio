@@ -58,9 +58,16 @@
   color: rgb(16, 13, 155);
 }
 
+
 .contact, .projects {
   margin-top: 200px;
   margin-bottom: 250px;
+  background-color: rgba(2, 255, 221, 0.082);;
+  margin-left: 270px;
+  margin-right: 270px;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 173, 107, 0.1);
   /* background-image:url('./images/green-marble.jpg');
   background-size: cover;
   margin-right: 200px;
@@ -71,14 +78,27 @@
   box-shadow: 10px 10px 10px rgba(0, 173, 107, 0.274); */
 }
 
+/* .projects {
+  background-color: rgba(173, 255, 173, 0.281);
+  background-size: 500px;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 173, 107, 0.1);
+} */
+
 .about-text{
   font-size: 20px;
   color: rgb(16, 13, 155);
 }
 
 .about {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  background-color: rgb(8, 84, 187, 0.08);
+  background-size: 500px;
+  padding: 70px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 173, 107, 0.1);
   /* background-image: url('./images/green-marble.jpg');
   opacity: 0.1;
   background-size: cover;
@@ -90,6 +110,7 @@
   width: auto;
   height: 750px; */
 }
+
 
 /* .about::before {
   content: "";
@@ -110,3 +131,16 @@ h1 {
   transform: scale(1.2);
   opacity: 80%;
 } */
+
+
+@media (min-width: 480px) {
+  
+}
+
+@media (max-width: 870px) {
+
+}
+
+@media (min-width: 870px) { 
+
+}
