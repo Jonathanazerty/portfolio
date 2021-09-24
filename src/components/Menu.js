@@ -1,5 +1,5 @@
-import React from 'react'
-import "./menu.css"
+import React from 'react';
+import "./menu.css";
 
 
 export default function Menu({ menuOpen, setMenuOpen }) {
