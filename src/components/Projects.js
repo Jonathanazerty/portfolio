@@ -16,7 +16,14 @@ const Projects = () => {
                     <div className="image__title"> Pokedex 🎮 </div>
                     <a href="https://pokedex-dennis-jonathan.netlify.app/"><p className ="image__description">
                         Click here to view live !
-                    </p></a>
+                    </p></a><br></br>
+                    <div className="devicons">
+                        <i class="devicon-react-original-wordmark fa-3x p-3 text-warning"></i>
+                        <i class="devicon-javascript-plain fa-3x p-3 text-warning"></i>
+                        <i class="devicon-typescript-plain fa-3x p-3 text-warning"></i>
+                        <i class="devicon-css3-plain-wordmark fa-3x p-3 text-warning"></i>
+                        <i class="devicon-bootstrap-plain-wordmark fa-3x p-3 text-warning"></i>
+                    </div>
                 </div>
             </div>
             <div className="images">
@@ -25,7 +32,12 @@ const Projects = () => {
                     <div className="image__title"> Weather App ☀️❄️⛈️🌡️</div>
                     <a href="https://jonathanazerty.github.io/weather-app/"><p className ="image__description">
                         Click here to view live !
-                    </p></a>
+                    </p></a><br></br>
+                    <div className="devicons">
+                        <i class="devicon-javascript-plain fa-3x p-3 text-warning"></i>
+                        <i class="devicon-css3-plain-wordmark fa-3x p-3 text-warning"></i>
+                        <i class="devicon-bootstrap-plain-wordmark fa-3x p-3 text-warning"></i>
+                    </div>
                 </div>
             </div>
             <div className="images">
@@ -34,7 +46,12 @@ const Projects = () => {
                     <div className="image__title"> Culture Cuisine 🌮🧆🍣🍝</div>
                     <a href="https://syntaxv8.github.io/the-startup/"><p className ="image__description">
                         Click here to view live !
-                    </p></a>
+                    </p></a><br></br>
+                    <div className="devicons">
+                        <i class="devicon-javascript-plain fa-3x p-3 text-warning"></i>
+                        <i class="devicon-css3-plain-wordmark fa-3x p-3 text-warning"></i>
+                        <i class="devicon-bootstrap-plain-wordmark fa-3x p-3 text-warning"></i>
+                    </div>
                 </div>
             </div>
         </div>

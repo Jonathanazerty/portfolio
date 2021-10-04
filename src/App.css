@@ -169,8 +169,8 @@
 
 .image__description {
   font-size: 1.25em;
-  margin-top: 0.25em;
-  color: rgb(255, 238, 0);
+  margin: 1em;
+  color: rgb(255, 123, 0);
 }
 
 /* .about::before {

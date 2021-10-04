@@ -10,7 +10,7 @@ const Home = () => {
         
         <body className="body">
             <div>
-            <a href="/About" title="AboutMe"><img className="gif" src={logo} alt="loading..." /></a>
+                <a href="/About" title="AboutMe"><img className="gif" src={logo} alt="loading..." /></a>
             </div>
             <About/>
             <Projects/>
