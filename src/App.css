@@ -5,6 +5,19 @@
   color: rgb(16, 13, 155);
 }
 
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(206, 55, 55);
+  border-radius: 50px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: white;
+}
+
 .App {
   background-color: white;
   color: rgb(16, 13, 155);
@@ -62,7 +75,7 @@
 .contact, .projects {
   margin-top: 200px;
   margin-bottom: 250px;
-  background-color: rgba(2, 255, 221, 0.082);;
+  background-color: rgba(2, 255, 221, 0.082);
   margin-left: 270px;
   margin-right: 270px;
   padding: 50px;
@@ -141,7 +154,7 @@
   opacity: 0;
   transition: opacity 0.25s;
   border-radius: 20px;
-  margin-left: 100px;
+  margin-left: 94px;
 }
 
 .image__overlay--blur {
@@ -150,7 +163,7 @@
 
 .image__overlay > * {
   transform: translateY(20px);
-  transition: transform 0.25s;
+  transition: transform 0.4s;
 }
 
 .image__overlay:hover {
@@ -165,11 +178,12 @@
   font-size: 2em;
   font-weight: bold;
   color: rgb(0, 255, 234);
+  padding-bottom: 20px;
 }
 
 .image__description {
   font-size: 1.25em;
-  margin: 1em;
+  margin-top: 0.25em;
   color: rgb(255, 123, 0);
 }
 

@@ -9,7 +9,7 @@ export default function Header({ menuOpen, setMenuOpen }) {
                <div className="wrapper">
 
                   <div className="left">
-                  <a href="/" title=""><img className="gif-navbar" src={logo} alt="loading..." /></a>
+                  <a href="/" title=""><img className="gif-navbar" src={logo} alt="logo" /></a>
 
                      <div className="itemContainer">
                         <span>" Hello world ! "</span>

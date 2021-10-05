@@ -11,7 +11,7 @@ import { Footer } from "./components/Footer";
 
 function App() {
 
-  const [menuOpen, setMenuOpen] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
 <div className="App">
