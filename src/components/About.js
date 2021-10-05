@@ -1,6 +1,7 @@
 import {React , useEffect, useRef} from 'react';
 import '../App.css';
 import { init } from 'ityped';
+import { Container, Row, Col } from 'react-grid-system';
 
 const About = () => {
 
@@ -31,10 +32,51 @@ const About = () => {
                             Help me help you !
                         </p>
                             <br></br>
-                        <p>
-                            FRONT-END = HTML CSS Javascript React Typescript Bootstrap<br></br>
-                            BACK-END = PHP Laravel
-                        </p>
+                        <Container fluid>
+                            <Row align="center" justify="center" direction="column" style={{ height: '300px' }} >
+                                <Col xs={3} >HTML
+                                    <div className="progress-bar-container">
+                                        <div className="progress-bar-indicator" style={{width:"80%"}}></div>
+                                    </div>
+                                </Col>
+                                <Col xs={3} >CSS
+                                    <div className="progress-bar-container">
+                                        <div className="progress-bar-indicator" style={{width:"80%"}}></div>
+                                    </div>
+                                </Col>
+                                <Col xs={3} >Javascript
+                                    <div className="progress-bar-container">
+                                        <div className="progress-bar-indicator" style={{width:"70%"}}></div>
+                                    </div>
+                                </Col>
+                                <Col xs={3} >React
+                                    <div className="progress-bar-container">
+                                        <div className="progress-bar-indicator" style={{width:"70%"}}></div>
+                                    </div>
+                                </Col>
+                                <Col xs={3} >Typescript
+                                    <div className="progress-bar-container">
+                                        <div className="progress-bar-indicator" style={{width:"70%"}}></div>
+                                    </div>
+                                </Col>
+                                <Col xs={3} >Bootstrap
+                                    <div className="progress-bar-container">
+                                        <div className="progress-bar-indicator" style={{width:"70%"}}></div>
+                                    </div>
+                                </Col>
+                                <Col xs={3} >PHP
+                                    <div className="progress-bar-container">
+                                        <div className="progress-bar-indicator" style={{width:"50%"}}></div>
+                                    </div>
+                                </Col>
+                                <Col xs={3} >Laravel
+                                    <div className="progress-bar-container">
+                                        <div className="progress-bar-indicator" style={{width:"50%"}}></div>
+                                    </div>
+                                </Col>
+                            </Row>
+
+                        </Container>
                 </div>
             </div>
         </>

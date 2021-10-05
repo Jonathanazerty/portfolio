@@ -49,7 +49,7 @@ body::-webkit-scrollbar-track {
 
 .gif:hover {
   transform: scale(1.2);
-  opacity: 80%;
+  opacity: 90%;
   box-shadow: 10px 10px 10px rgb(194, 194, 255);
 }
 
@@ -104,6 +104,8 @@ body::-webkit-scrollbar-track {
   color: rgb(16, 13, 155);
 }
 
+/* ABOUT ME PAGE */
+
 .about {
   margin-top: 50px;
   margin-bottom: 80px;
@@ -112,21 +114,44 @@ body::-webkit-scrollbar-track {
   padding: 70px;
   border-radius: 20px;
   box-shadow: 10px 10px 10px 10px rgba(0, 173, 107, 0.1);
-  /* background-image: url('./images/green-marble.jpg');
-  opacity: 0.1;
-  background-size: cover;
-  position: relative;
-  border-radius: 20px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  box-shadow: 10px 10px 10px rgba(0, 173, 107, 0.274);
-  width: auto;
-  height: 750px; */
 }
 
-.about:hover{
-  transform: scale(1.05);
+/* SKILLS */
+
+.progress-bar-container {
+  height: 20px;
+  width: 100%;
+  margin: 10px 0px;
+  background: white;
+  position:relative; /* relative here */
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px rgba(0, 173, 107, 0.1);
 }
+
+.progress-bar-indicator {
+  height: 100%;
+  border-radius: 25px;
+  -webkit-mask:linear-gradient(#fff 0 0);
+          mask:linear-gradient(#fff 0 0);
+  animation: load 4s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  width: 0;
+}
+.progress-bar-indicator::before {
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-image: linear-gradient(to right, darkblue, blue, lightblue);
+}
+
+@keyframes load {
+  0% { width: 0; }
+  100% { width: 68%; }
+}
+
 
 .images {
   position: relative;
