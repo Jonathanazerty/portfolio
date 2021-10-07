@@ -3,7 +3,6 @@ import { SocialIcon } from 'react-social-icons';
  import { MDBContainer, MDBFooter, MDBCol, MDBRow} from "mdbreact";
  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
  import { faHome } from '@fortawesome/free-solid-svg-icons';
- import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
     return (
