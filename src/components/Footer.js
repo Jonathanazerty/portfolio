@@ -34,7 +34,6 @@ const Footer = () => {
                 <ul>
                   <FontAwesomeIcon icon={faHome} />
                         Antwerp - Belgium<br></br>
-                  <FontAwesomeIcon icon={faPhone} url="tel:+32 473981602"/>
                 </ul>
               </MDBCol>
             </MDBRow>

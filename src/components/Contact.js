@@ -4,8 +4,7 @@ import '../App.css';
 
 const Contact = () => {
     return (
-        <div className="contact">
-            <section class="d-flex flex-lg-column justify-content-center align-items-center">
+            <section class="d-flex flex-lg-column justify-content-center align-items-center mt-5 mb-5 pt-5 pb-5">
                 <div class="me-5 d-none d-lg-block mb-5">
                     <span><h1>Feel free to connect 🤝🏼</h1></span>
                 </div>
@@ -14,9 +13,7 @@ const Contact = () => {
                     <SocialIcon url="https://github.com/Jonathanazerty/" bgColor="#fbff12" fgColor="#fa0000" style={{ height: 100, width: 100 }} />
                     <SocialIcon url="mailto:j.kalonji@hotmail.com" bgColor="#fa0000" fgColor="#000000" style={{ height: 100, width: 100 }} />
                 </div>
-                
             </section>
-        </div>
     )
 }
 
