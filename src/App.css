@@ -38,7 +38,7 @@ body::-webkit-scrollbar-track {
 }
 
 .gif {
-  opacity: 70%;
+  opacity: 50%;
   margin-top: 150px;
   margin-bottom: 300px;
   width: 27%;
@@ -48,7 +48,6 @@ body::-webkit-scrollbar-track {
 }
 
 .gif:hover {
-  opacity: 90%;
   transform: scale(1.2);
   box-shadow: 10px 10px 10px rgb(194, 194, 255);
 }
