@@ -11,11 +11,11 @@ const Footer = () => {
                 <div class="me-5 d-none d-lg-block">
                     <span>Eager to meet new people 🤝🏼 !</span>
                 </div>
-                <div className="icons">
-                  <SocialIcon url="https://linkedin.com/in/jonathan-kalonji-0819a492/" bgColor="#0054ff" />
-                  <SocialIcon url="https://github.com/Jonathanazerty/" bgColor="#0054ff" />
-                  <SocialIcon url="mailto:j.kalonji@hotmail.com" bgColor="#0054ff"/>
-                  <SocialIcon url="tel:+32 473981602" bgColor="#0054ff"/>
+                <div className="icons-footer">
+                  <SocialIcon className="icon-footer" url="https://linkedin.com/in/jonathan-kalonji-0819a492/" bgColor="#0054ff" />
+                  <SocialIcon className="icon-footer" url="https://github.com/Jonathanazerty/" bgColor="#0054ff" />
+                  <SocialIcon className="icon-footer" url="mailto:j.kalonji@hotmail.com" bgColor="#0054ff"/>
+                  <SocialIcon className="icon-footer" url="tel:+32 473981602" bgColor="#0054ff"/>
                 </div>
                 
             </section>

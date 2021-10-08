@@ -55,7 +55,6 @@ body::-webkit-scrollbar-track {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  opacity: 90%;
 }
 
 .footer {
@@ -193,6 +192,21 @@ body::-webkit-scrollbar-track {
   color: rgb(255, 123, 0);
 }
 
+.icons {
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px rgba(0, 173, 107, 0.1);
+  margin: 20px;
+}
+
+.icons:hover, .icon-footer:hover {
+  transform: scale(1.2);
+} 
+
+.icon-footer {
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px rgba(0, 173, 107, 0.1);
+  margin: 5px;
+}
 
 @media (min-width: 480px) {
   
