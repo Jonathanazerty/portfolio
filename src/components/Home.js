@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css';
 import logo from '../images/Jonathan.gif';
 import { About } from './About';
 import { Contact } from './Contact';
@@ -9,6 +10,11 @@ const Home = () => {
     return (
         
         <body className="body">
+            <div id='title'>
+                <span>
+                    No one is you and that's your power
+                </span>
+            </div>
             <div>
                 <a href="/About" title="AboutMe"><img className="gif" src={logo} alt="loading..." /></a>
             </div>

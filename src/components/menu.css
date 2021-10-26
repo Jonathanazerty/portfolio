@@ -31,14 +31,13 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    font-size: 40px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 200;
     color: white;
-    width: 60%;
   }
   
   .menu ul li {
-    margin-bottom: 30px;
+    margin-bottom: 1px;
   }
   
   .menu ul li a {
@@ -48,5 +47,5 @@
   }
   
   .menu ul li:hover {
-    font-weight: 700;
+    font-weight: 400;
   }

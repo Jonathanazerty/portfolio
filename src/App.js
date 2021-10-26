@@ -14,12 +14,13 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-<div className="App">
-      <header className="App-header">
+    
+    <div className="App">      
+      <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
             <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
             <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-      </header>
-      <body className="body">
           <Router>
             <Switch>
               <Route path="/" exact component={Home} />
@@ -28,7 +29,6 @@ function App() {
               <Route path="/Contact" component={Contact} />
             </Switch>
           </Router>
-      </body>
       <footer>
         <Footer/>
       </footer>

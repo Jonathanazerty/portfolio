@@ -1,9 +1,10 @@
 import React from 'react';
 import '../App.css';
-import pokedex from '../images/pokedex.png';
-import weather from '../images/WeatherApp.png';
-import cuisine from '../images/CultureCuisine.png';
-import Carousel from 'react-bootstrap/Carousel'
+import pokedex from '../images/pikachu.png';
+import weather from '../images/weather-app.png';
+import cuisine from '../images/culture food.png';
+import Carousel from 'react-bootstrap/Carousel';
+import { Container, Row, Col } from 'react-grid-system';
 
 const Projects = () => {
     return (
@@ -17,7 +18,7 @@ const Projects = () => {
         <Carousel class="carousel mb-5 mt-5">
             <Carousel.Item interval={4000}>
                 <div className="images" class="img-responsive center-block">
-                    <img className="image" src={pokedex} alt="loading..." class="rounded float-center mb-5 mt-5" style={{width: "590px", height: "100%"  }}/><br></br>
+                    <img className="image" src={pokedex} alt="loading..." class="rounded float-center mb-5 mt-5" style={{width: "300px", height: "300px", borderRadius: "50%"  }}/><br></br>
                     <div className="image__overlay image__overlay--blur">
                         <div className="image__title"> Pokedex 🎮 </div>
                         <a href="https://pokedex-dennis-jonathan.netlify.app/"><p className ="image__description">
@@ -41,7 +42,7 @@ const Projects = () => {
             </Carousel.Item>
             <Carousel.Item interval={4000}>
                 <div className="images" class="img-responsive center-block">
-                        <img className="image" src={weather} alt="loading..." class="rounded float-center mb-5 mt-5" style={{width: "590px", height: "100%"  }}/><br></br>
+                        <img className="image" src={weather} alt="loading..." class="rounded float-center mb-5 mt-5" style={{width: "300px", height: "300px", borderRadius: "50%"  }}/><br></br>
                         <div className="image__overlay image__overlay--blur">
                             <div className="image__title"> Weather App ☀️❄️⛈️🌡️</div>
                             <a href="https://jonathanazerty.github.io/weather-app/"><p className ="image__description">
@@ -63,9 +64,14 @@ const Projects = () => {
             </Carousel.Item>
             <Carousel.Item interval={4000}>
                 <div className="images" class="img-responsive center-block">
-                        <img className="image" src={cuisine} alt="loading..." class="rounded float-center mt-5 mb-5" style={{width: "590px", height: "100%"  }}/>
-                        <div className="image__overlay image__overlay--blur">
-                            <div className="image__title"> Culture Cuisine 🌮🧆🍣🍝</div>
+                <Container fluid>
+                    <Row align="center" justify="center" direction="row">
+                        <Col xs={6} className="pr-5" align="right">
+                            <img className="image" src={cuisine} alt="loading..." class="rounded float-center mt-5 mb-5" style={{width: "300px", height: "300px", borderRadius: "50%"  }}/>
+                        </Col>
+                        <div className="description">
+                        <Col xs={6} align="left">
+                            <div className="image__title"> Culture Cuisine</div>
                             <a href="https://syntaxv8.github.io/the-startup/"><p className ="image__description">
                                 Click here to view live !
                             </p></a>
@@ -77,8 +83,11 @@ const Projects = () => {
                                 <i class="devicon-css3-plain-wordmark fa-3x p-3 text-warning"></i>
                                 <i class="devicon-bootstrap-plain-wordmark fa-3x p-3 text-warning"></i>
                             </div>
+                        </Col>
                         </div>
-                    </div>
+                    </Row>
+                </Container>
+                </div>
                 <Carousel.Caption>
                 </Carousel.Caption>
             </Carousel.Item>
