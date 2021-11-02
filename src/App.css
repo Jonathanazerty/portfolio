@@ -379,8 +379,12 @@ body::-webkit-scrollbar-thumb {
 
 @media only screen and (max-width: 395px) {
   #title {
+    margin-top: 100px;
     margin-left: 70px;
     margin-right: 70px;
+  }
+  .devicons{
+    font-size: 8px;
   }
 } 
 
