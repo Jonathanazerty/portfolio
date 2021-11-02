@@ -15,9 +15,9 @@ const Contact = () => {
                         </Col>
                         <Col xs={12}>
                             <div className="social-icon">
-                                <SocialIcon className="icons" url="https://linkedin.com/in/jonathan-kalonji-0819a492/" bgColor="#82c9ff" fgColor="#ffffff" style={{ height: 100, width: 100 }} />
-                                <SocialIcon className="icons" url="https://github.com/Jonathanazerty/" bgColor="#82c9ff" fgColor="#ffffff" style={{ height: 100, width: 100 }} />
-                                <SocialIcon className="icons" url="mailto:j.kalonji@hotmail.com" bgColor="#82c9ff" fgColor="#ffffff" style={{ height: 100, width: 100 }} />
+                                <SocialIcon className="icons" url="https://linkedin.com/in/jonathan-kalonji-0819a492/" target="_blank" rel="noreferrer noopener" bgColor="#82c9ff" fgColor="#ffffff" style={{ height: 100, width: 100 }} />
+                                <SocialIcon className="icons" url="https://github.com/Jonathanazerty/" target="_blank" rel="noreferrer noopener" bgColor="#82c9ff" fgColor="#ffffff" style={{ height: 100, width: 100 }} />
+                                <SocialIcon className="icons" url="mailto:j.kalonji@hotmail.com" target="_blank" rel="noreferrer noopener" bgColor="#82c9ff" fgColor="#ffffff" style={{ height: 100, width: 100 }} />
                             </div>
                         </Col>
                     </Row>

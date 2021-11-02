@@ -12,11 +12,11 @@ const Footer = () => {
                     <span>Eager to meet new people !</span>
                 </div>
                 <div className="icons-footer">
-                  <span class="handshake">👋🏽</span> <b>Say Hey !</b><br></br>
-                  <SocialIcon className="icon-footer" url="https://www.linkedin.com/in/jonathan-kalonji/" bgColor="#0361a8" fgColor="#ffffff" />
-                  <SocialIcon className="icon-footer" url="https://github.com/Jonathanazerty/" bgColor="#0361a8" fgColor="#ffffff"/>
-                  <SocialIcon className="icon-footer" url="mailto:j.kalonji@hotmail.com" bgColor="#0361a8" fgColor="#ffffff"/>
-                  <SocialIcon className="icon-footer" url="tel:+32 473981602" bgColor="#0361a8" fgColor="#ffffff"/>
+                  <span class="handshake">👋🏽</span> <b className="hey"> Say Hey !</b><br></br>
+                  <SocialIcon className="icon-footer" url="https://www.linkedin.com/in/jonathan-kalonji/" target="_blank" rel="noreferrer noopener" bgColor="#0361a8" fgColor="#ffffff" />
+                  <SocialIcon className="icon-footer" url="https://github.com/Jonathanazerty/" target="_blank" rel="noreferrer noopener" bgColor="#0361a8" fgColor="#ffffff"/>
+                  <SocialIcon className="icon-footer" url="mailto:j.kalonji@hotmail.com" target="_blank" rel="noreferrer noopener" bgColor="#0361a8" fgColor="#ffffff"/>
+                  <SocialIcon className="icon-footer" url="tel:+32 473981602" target="_blank" rel="noreferrer noopener" bgColor="#0361a8" fgColor="#ffffff"/>
                 </div>
                 
             </section>

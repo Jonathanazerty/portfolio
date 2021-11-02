@@ -20,10 +20,10 @@ const Projects = () => {
                     <img className="image" src={pokedex} alt="loading..." class="img-fluid mb-5 mt-5" style={{width: "300px", height: "auto"}}/><br></br>
                     <div className="image__overlay image__overlay--blur">
                         <div className="image__title"> Pokedex 🎮 </div>
-                        <a href="https://pokedex-dennis-jonathan.netlify.app/"><p className ="image__description">
+                        <a href="https://pokedex-dennis-jonathan.netlify.app/" target="_blank" rel="noreferrer noopener"><p className ="image__description">
                             Click here to view live !
                         </p></a>
-                        <a href="https://github.com/Jonathanazerty/pokedex"><p className ="image__description">
+                        <a href="https://github.com/Jonathanazerty/pokedex"  target="_blank" rel="noreferrer noopener"><p className ="image__description">
                             Github
                         </p></a>
                         <p className ="image__description">An API was used here</p>
@@ -44,10 +44,10 @@ const Projects = () => {
                     <img className="image" src={weather} alt="loading..." class="img-fluid mb-5 mt-5" style={{width: "300px", height: "auto"}}/><br></br>
                     <div className="image__overlay image__overlay--blur">
                         <div className="image__title"> Weather App ☀️❄️⛈️🌡️</div>
-                        <a href="https://jonathanazerty.github.io/weather-app/"><p className ="image__description">
+                        <a href="https://jonathanazerty.github.io/weather-app/" target="_blank" rel="noreferrer noopener"><p className ="image__description">
                             Click here to view live !
                         </p></a>
-                        <a href="https://github.com/Jonathanazerty/weather-app"><p className ="image__description">
+                        <a href="https://github.com/Jonathanazerty/weather-app" target="_blank" rel="noreferrer noopener"><p className ="image__description">
                             Github
                         </p></a>
                         <p className ="image__description">An API was used here</p>
@@ -66,10 +66,10 @@ const Projects = () => {
                     <img className="image" src={cuisine} alt="loading..." class="img-fluid mt-5 mb-5" style={{width: "300px", height: "auto"}}/>
                     <div className="image__overlay image__overlay--blur">
                         <div className="image__title"> Culture Cuisine</div>
-                        <a href="https://syntaxv8.github.io/the-startup/"><p className ="image__description">
+                        <a href="https://syntaxv8.github.io/the-startup/" target="_blank" rel="noreferrer noopener"><p className ="image__description">
                             Click here to view live !
                         </p></a>
-                        <a href="https://github.com/Jonathanazerty/the-startup"><p className ="image__description">
+                        <a href="https://github.com/Jonathanazerty/the-startup" target="_blank" rel="noreferrer noopener"><p className ="image__description">
                             Github
                         </p></a>
                         <div className="devicons">

@@ -157,6 +157,9 @@ body::-webkit-scrollbar-thumb {
 .about-text{
   font-size: 20px;
   color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /* ABOUT ME PAGE */
@@ -195,10 +198,6 @@ body::-webkit-scrollbar-thumb {
   animation: load 4s normal forwards;
   box-shadow: 0 10px 40px -10px #fff;
   width: 0;
-}
-
-.progress-bar-container:hover {
-  transform: scale(1.2);
 }
 
 .progress-bar-indicator::before {
@@ -328,14 +327,20 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+@media only screen and (max-width: 992px) {
+  .hey{
+    font-size: 30px;
+  }
+  .handshake{
+    font-size: 40px;
+  }
+}
+
 @media only screen and (max-width: 845px) {
   .gif {
     margin-bottom: 100px;
     width: 50%;
     height: 50%;
-  }
-  .wave{
-    display: block;
   }
 } 
 

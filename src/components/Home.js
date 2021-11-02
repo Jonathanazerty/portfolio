@@ -16,7 +16,7 @@ const Home = () => {
                 </span>
             </div>
             <div>
-                <a href="/About" title="AboutMe"><img className="gif" src={logo} alt="loading..." /></a>
+                <a href="/About" target="_blank" rel="noreferrer noopener" title="AboutMe"><img className="gif" src={logo} alt="loading..." /></a>
             </div>
             <About/>
             <Projects/>
