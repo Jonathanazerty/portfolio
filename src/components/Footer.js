@@ -9,9 +9,10 @@ const Footer = () => {
         <div className="footer pl-5 pr-5">
             <section class="d-flex justify-content-center justify-content-lg-between p-4 m-4 border-bottom">
                 <div class="me-5 d-none d-lg-block">
-                    <span>Eager to meet new people <span class="handshake">👋🏽</span>!</span>
+                    <span>Eager to meet new people !</span>
                 </div>
                 <div className="icons-footer">
+                  <span class="handshake">👋🏽</span> <b>Say Hey !</b><br></br>
                   <SocialIcon className="icon-footer" url="https://www.linkedin.com/in/jonathan-kalonji/" bgColor="#0361a8" fgColor="#ffffff" />
                   <SocialIcon className="icon-footer" url="https://github.com/Jonathanazerty/" bgColor="#0361a8" fgColor="#ffffff"/>
                   <SocialIcon className="icon-footer" url="mailto:j.kalonji@hotmail.com" bgColor="#0361a8" fgColor="#ffffff"/>

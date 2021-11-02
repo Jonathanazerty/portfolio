@@ -334,6 +334,9 @@ body::-webkit-scrollbar-thumb {
     width: 50%;
     height: 50%;
   }
+  .wave{
+    display: block;
+  }
 } 
 
  @media only screen and (max-width: 764px) {
