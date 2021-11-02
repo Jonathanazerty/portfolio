@@ -5,7 +5,7 @@ import '../App.css';
 
 const Contact = () => {
     return (
-            <section class="d-flex flex-lg-column justify-content-center align-items-center mt-5 mb-5 pt-5 pb-5">
+            <section class="d-flex flex-lg-column justify-content-center align-items-center mt-5 mb-5 pt-5 pb-5" id="contact">
                 <Container fluid>
                     <Row align="center" justify="center" direction="row" style={{ height: '300px' }} >
                         <Col xs={12} >

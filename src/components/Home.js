@@ -9,14 +9,14 @@ const Home = () => {
     
     return (
         
-        <body className="body">
+        <body className="body" id="home">
             <div id='title'>
                 <span>
                     No one is you and that's your power
                 </span>
             </div>
             <div>
-                <a href="/About" target="_blank" rel="noreferrer noopener" title="AboutMe"><img className="gif" src={logo} alt="loading..." /></a>
+                <a href="#about-me" title="AboutMe"><img className="gif" src={logo} alt="loading..." /></a>
             </div>
             <About/>
             <Projects/>

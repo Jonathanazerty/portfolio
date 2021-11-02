@@ -8,7 +8,7 @@ import Carousel from 'react-bootstrap/Carousel';
 const Projects = () => {
     return (
         <>
-        <div className="projects">
+        <div className="projects" id="projects">
             <h2 class="rounded float-center mb-5 mt-5 pt-5">
                 My Projects
             </h2>

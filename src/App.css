@@ -145,23 +145,6 @@ body::-webkit-scrollbar-thumb {
   color: rgb(16, 13, 155);
 }
 
-
-.contact {
-  background-color: rgba(2, 255, 221, 0.082);
-  padding: 50px;
-  border-radius: 20px;
-  box-shadow: 10px 10px 10px 10px rgba(0, 173, 107, 0.1);
-}
-
-
-.about-text{
-  font-size: 20px;
-  color: rgb(255, 255, 255);
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 /* ABOUT ME PAGE */
 
 .about {
@@ -176,6 +159,14 @@ body::-webkit-scrollbar-thumb {
   padding: 2rem;
   border-radius: 16px;
   box-shadow: 5px 5px 5px rgba(100, 167, 255, 0.192);
+}
+
+.about-text{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /* SKILLS */
@@ -210,12 +201,13 @@ body::-webkit-scrollbar-thumb {
   background-image: linear-gradient(to right, darkblue, blue, lightblue);
 }
 
-/* @keyframes load {
-  0% { width: 0; }
-  100% { width: 75%; }
-} */
 
-/* Projects */
+/* PROJECTS PAGE */
+#projects, .carousel {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .images {
   position: relative;
   width: 400px;
@@ -229,6 +221,7 @@ body::-webkit-scrollbar-thumb {
 .carousel {
   margin-left: 5rem;
   margin-right: 5rem;
+  margin-bottom: 4rem;
   background-color: #91a5ff15;
   padding: 2rem;
   border-radius: 16px;
@@ -300,6 +293,14 @@ body::-webkit-scrollbar-thumb {
  50% { transform: rotate(10.0deg) }
  60% { transform: rotate( 0.0deg) } 
 100% { transform: rotate( 0.0deg) }
+}
+
+/* CONTACT PAGE */
+
+#contact {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .icons {
