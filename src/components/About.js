@@ -33,45 +33,41 @@ const About = () => {
                         </p>
                             <br></br>
                         <Container fluid>
-                            <Row align="center" justify="center" direction="column" style={{ height: '300px' }} >
-                                <Col xs={3} >HTML
+                            <Row align="center" justify="center" direction="row" style={{ height: '300px' }} >
+                                <Col xs={5} >HTML
                                     <div className="progress-bar-container">
                                         <div className="progress-bar-indicator" style={{width:"80%"}}></div>
                                     </div>
-                                </Col>
-                                <Col xs={3} >CSS
+                                    CSS
                                     <div className="progress-bar-container">
                                         <div className="progress-bar-indicator" style={{width:"80%"}}></div>
                                     </div>
+                                    Javascript
+                                    <div className="progress-bar-container">
+                                        <div className="progress-bar-indicator" style={{width:"64%"}}></div>
+                                    </div>
+                                    React
+                                    <div className="progress-bar-container">
+                                        <div className="progress-bar-indicator" style={{width:"64%"}}></div>
+                                    </div>
                                 </Col>
-                                <Col xs={3} >Javascript
+                                <Col xs={1} >
+                                </Col>
+                                <Col xs={5} >Typescript
                                     <div className="progress-bar-container">
                                         <div className="progress-bar-indicator" style={{width:"70%"}}></div>
                                     </div>
-                                </Col>
-                                <Col xs={3} >React
+                                    Bootstrap
                                     <div className="progress-bar-container">
                                         <div className="progress-bar-indicator" style={{width:"70%"}}></div>
                                     </div>
-                                </Col>
-                                <Col xs={3} >Typescript
+                                    PHP
                                     <div className="progress-bar-container">
-                                        <div className="progress-bar-indicator" style={{width:"70%"}}></div>
+                                        <div className="progress-bar-indicator" style={{width:"40%"}}></div>
                                     </div>
-                                </Col>
-                                <Col xs={3} >Bootstrap
+                                    Laravel
                                     <div className="progress-bar-container">
-                                        <div className="progress-bar-indicator" style={{width:"70%"}}></div>
-                                    </div>
-                                </Col>
-                                <Col xs={3} >PHP
-                                    <div className="progress-bar-container">
-                                        <div className="progress-bar-indicator" style={{width:"50%"}}></div>
-                                    </div>
-                                </Col>
-                                <Col xs={3} >Laravel
-                                    <div className="progress-bar-container">
-                                        <div className="progress-bar-indicator" style={{width:"50%"}}></div>
+                                        <div className="progress-bar-indicator" style={{width:"40%"}}></div>
                                     </div>
                                 </Col>
                             </Row>

@@ -17,7 +17,7 @@ const Projects = () => {
         <Carousel class="carousel mb-5 mt-5">
             <Carousel.Item interval={4000}>
                 <div className="images" class="img-responsive center-block">
-                    <img className="image" src={pokedex} alt="loading..." class="rounded float-center mb-5 mt-5" style={{width: "300px", height: "300px", borderRadius: "50%"  }}/><br></br>
+                    <img className="image" src={pokedex} alt="loading..." class="img-fluid mb-5 mt-5" style={{width: "300px", height: "auto"}}/><br></br>
                     <div className="image__overlay image__overlay--blur">
                         <div className="image__title"> Pokedex 🎮 </div>
                         <a href="https://pokedex-dennis-jonathan.netlify.app/"><p className ="image__description">
@@ -41,7 +41,7 @@ const Projects = () => {
             </Carousel.Item>
             <Carousel.Item interval={4000}>
                 <div className="images" class="img-responsive center-block">
-                    <img className="image" src={weather} alt="loading..." class="rounded float-center mb-5 mt-5" style={{width: "300px", height: "300px", borderRadius: "50%"  }}/><br></br>
+                    <img className="image" src={weather} alt="loading..." class="img-fluid mb-5 mt-5" style={{width: "300px", height: "auto"}}/><br></br>
                     <div className="image__overlay image__overlay--blur">
                         <div className="image__title"> Weather App ☀️❄️⛈️🌡️</div>
                         <a href="https://jonathanazerty.github.io/weather-app/"><p className ="image__description">
@@ -63,7 +63,7 @@ const Projects = () => {
             </Carousel.Item>
             <Carousel.Item interval={4000}>
                 <div className="images" class="img-responsive center-block">
-                    <img className="image" src={cuisine} alt="loading..." class="rounded float-center mt-5 mb-5" style={{width: "300px", height: "300px", borderRadius: "50%"  }}/>
+                    <img className="image" src={cuisine} alt="loading..." class="img-fluid mt-5 mb-5" style={{width: "300px", height: "auto"}}/>
                     <div className="image__overlay image__overlay--blur">
                         <div className="image__title"> Culture Cuisine</div>
                         <a href="https://syntaxv8.github.io/the-startup/"><p className ="image__description">

@@ -66,7 +66,10 @@
 
 #title {
   position: absolute;
-  margin-top: 100px;
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
   left: 0;
   right: 0;
   color: #FFF;
@@ -112,10 +115,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 .gif {
-  margin-top: 240px;
-  margin-bottom: 300px;
-  width: 27%;
-  height: 27%;
+  margin-top: 400px;
+  margin-bottom: 150px;
+  width: 30%;
+  height: 30%;
   border-radius: 50%;
   box-shadow: 10px 10px 10px rgb(194, 194, 255);
 }
@@ -316,14 +319,86 @@ body::-webkit-scrollbar-thumb {
   margin: 5px;
 }
 
-@media (min-width: 480px) {
-  
+/* responsiveness */
+
+@media only screen and (max-width: 1135px) {
+  .gif {
+    margin-top: 400px;
+    margin-bottom: 100px;
+  }
 }
 
-@media (max-width: 870px) {
+@media only screen and (max-width: 845px) {
+  .gif {
+    margin-bottom: 100px;
+    width: 50%;
+    height: 50%;
+  }
+} 
 
+ @media only screen and (max-width: 764px) {
+  .gif {
+    margin-top: 500px;
+  }
+} 
+
+@media only screen and (max-width: 681px) {
+  .about {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .carousel {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .gif {
+    margin-top: 600px;
+    width: 70%;
+    height: 70%;
+  }
 }
 
-@media (min-width: 870px) { 
+@media only screen and (max-width: 554px) {
+  .gif {
+    margin-top: 700px;
+  }
+} 
 
-}
+@media only screen and (max-width: 450px) {
+  .footer {
+    margin-top: 100px;
+  }
+} 
+
+@media only screen and (max-width: 427px) {
+  .gif {
+    margin-top: 800px;
+  }
+} 
+
+@media only screen and (max-width: 395px) {
+  #title {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+} 
+
+@media only screen and (max-width: 335px) {
+  .gif {
+    margin-top: 900px;
+  }
+} 
+
+@media only screen and (max-width: 310px) {
+  #title {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .icons-footer {
+    display: none;
+  }
+  .footer {
+    margin-top: 250px;
+  }
+} 
