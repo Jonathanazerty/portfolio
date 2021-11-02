@@ -213,7 +213,7 @@ body::-webkit-scrollbar-thumb {
   100% { width: 75%; }
 } */
 
-
+/* Projects */
 .images {
   position: relative;
   width: 400px;
@@ -229,12 +229,6 @@ body::-webkit-scrollbar-thumb {
   margin-right: 5rem;
   background-color: #91a5ff15;
   padding: 2rem;
-  border-radius: 16px;
-  box-shadow: 5px 5px 5px rgba(100, 167, 255, 0.192);
-}
-
-.description {
-  background-color: #91a5ff4f;
   border-radius: 16px;
   box-shadow: 5px 5px 5px rgba(100, 167, 255, 0.192);
 }
@@ -276,14 +270,15 @@ body::-webkit-scrollbar-thumb {
 .image__title {
   font-size: 2em;
   font-weight: bold;
-  color: rgb(0, 27, 148);
+  color: #ffe714;
   padding-bottom: 20px;
 }
 
 .image__description {
   font-size: 1.25em;
+  font-weight: bold;
   margin-top: 0.25em;
-  color: rgb(0, 27, 148);
+  color: #ffe714;
 }
 
 .handshake {

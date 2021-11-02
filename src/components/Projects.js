@@ -4,7 +4,6 @@ import pokedex from '../images/pikachu.png';
 import weather from '../images/weather-app.png';
 import cuisine from '../images/culture food.png';
 import Carousel from 'react-bootstrap/Carousel';
-import { Container, Row, Col } from 'react-grid-system';
 
 const Projects = () => {
     return (
@@ -42,51 +41,43 @@ const Projects = () => {
             </Carousel.Item>
             <Carousel.Item interval={4000}>
                 <div className="images" class="img-responsive center-block">
-                        <img className="image" src={weather} alt="loading..." class="rounded float-center mb-5 mt-5" style={{width: "300px", height: "300px", borderRadius: "50%"  }}/><br></br>
-                        <div className="image__overlay image__overlay--blur">
-                            <div className="image__title"> Weather App ☀️❄️⛈️🌡️</div>
-                            <a href="https://jonathanazerty.github.io/weather-app/"><p className ="image__description">
-                                Click here to view live !
-                            </p></a>
-                            <a href="https://github.com/Jonathanazerty/weather-app"><p className ="image__description">
-                                Github
-                            </p></a>
-                            <p className ="image__description">An API was used here</p>
-                            <div className="devicons">
-                                <i class="devicon-javascript-plain fa-3x p-3 text-warning"></i>
-                                <i class="devicon-css3-plain-wordmark fa-3x p-3 text-warning"></i>
-                                <i class="devicon-bootstrap-plain-wordmark fa-3x p-3 text-warning"></i>
-                            </div>
+                    <img className="image" src={weather} alt="loading..." class="rounded float-center mb-5 mt-5" style={{width: "300px", height: "300px", borderRadius: "50%"  }}/><br></br>
+                    <div className="image__overlay image__overlay--blur">
+                        <div className="image__title"> Weather App ☀️❄️⛈️🌡️</div>
+                        <a href="https://jonathanazerty.github.io/weather-app/"><p className ="image__description">
+                            Click here to view live !
+                        </p></a>
+                        <a href="https://github.com/Jonathanazerty/weather-app"><p className ="image__description">
+                            Github
+                        </p></a>
+                        <p className ="image__description">An API was used here</p>
+                        <div className="devicons">
+                            <i class="devicon-javascript-plain fa-3x p-3 text-warning"></i>
+                            <i class="devicon-css3-plain-wordmark fa-3x p-3 text-warning"></i>
+                            <i class="devicon-bootstrap-plain-wordmark fa-3x p-3 text-warning"></i>
                         </div>
                     </div>
-                <Carousel.Caption>
-                </Carousel.Caption>
+                </div>
+            <Carousel.Caption>
+            </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={4000}>
                 <div className="images" class="img-responsive center-block">
-                <Container fluid>
-                    <Row align="center" justify="center" direction="row">
-                        <Col xs={6} className="pr-5" align="right">
-                            <img className="image" src={cuisine} alt="loading..." class="rounded float-center mt-5 mb-5" style={{width: "300px", height: "300px", borderRadius: "50%"  }}/>
-                        </Col>
-                        <div className="description">
-                        <Col xs={6} align="left">
-                            <div className="image__title"> Culture Cuisine</div>
-                            <a href="https://syntaxv8.github.io/the-startup/"><p className ="image__description">
-                                Click here to view live !
-                            </p></a>
-                            <a href="https://github.com/Jonathanazerty/the-startup"><p className ="image__description">
-                                Github
-                            </p></a>
-                            <div className="devicons">
-                                <i class="devicon-javascript-plain fa-3x p-3 text-warning"></i>
-                                <i class="devicon-css3-plain-wordmark fa-3x p-3 text-warning"></i>
-                                <i class="devicon-bootstrap-plain-wordmark fa-3x p-3 text-warning"></i>
-                            </div>
-                        </Col>
+                    <img className="image" src={cuisine} alt="loading..." class="rounded float-center mt-5 mb-5" style={{width: "300px", height: "300px", borderRadius: "50%"  }}/>
+                    <div className="image__overlay image__overlay--blur">
+                        <div className="image__title"> Culture Cuisine</div>
+                        <a href="https://syntaxv8.github.io/the-startup/"><p className ="image__description">
+                            Click here to view live !
+                        </p></a>
+                        <a href="https://github.com/Jonathanazerty/the-startup"><p className ="image__description">
+                            Github
+                        </p></a>
+                        <div className="devicons">
+                            <i class="devicon-javascript-plain fa-3x p-3 text-warning"></i>
+                            <i class="devicon-css3-plain-wordmark fa-3x p-3 text-warning"></i>
+                            <i class="devicon-bootstrap-plain-wordmark fa-3x p-3 text-warning"></i>
                         </div>
-                    </Row>
-                </Container>
+                    </div>
                 </div>
                 <Carousel.Caption>
                 </Carousel.Caption>
